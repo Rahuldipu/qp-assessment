@@ -1,0 +1,38 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript compiled output
+/dist
+
+# Environment variables
+.env
+
+# Docker-related files
+docker-compose.override.yml
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Build and cache directories
+.cache/
+build/
+coverage/
+
+# Optional: Ignore local Docker volumes if not needed
+*.pid
